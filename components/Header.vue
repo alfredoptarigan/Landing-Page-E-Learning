@@ -72,10 +72,12 @@
       >
         <div class="row">
           <div class="col-sm-12 col-lg-6 w-100">
-            <h1 class="josefins-sans-bold">Belajar Secara Jarak Jauh Sesuai Jadwal Praktikum</h1>
-            <p class="josefins-sans-regular">
+            <h1
+              class="josefins-sans-bold text-justify"
+            >Belajar Secara Jarak Jauh Sesuai Jadwal Praktikum</h1>
+            <p class="josefins-sans-regular text-justify">
               Mari mengurangi jarak dan tetap belajar
-              <br />untuk menambah ilmu.
+              untuk menambah ilmu.
             </p>
             <a href="/register" class="btn btn-prim">Get Started</a>
           </div>
