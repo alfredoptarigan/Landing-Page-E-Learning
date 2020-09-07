@@ -8,13 +8,12 @@
         data-aos-duration="1000"
         id="praktikum"
       >
-        <p class="poppins-medium poppins-26">
-          Praktikum yang tersedia dan yang
-          <br />akan datang
-        </p>
-        <p class="poppins-medium poppins-24">
+        <p
+          class="poppins-medium poppins-26 text-justify"
+        >Praktikum yang tersedia dan yang akan datang</p>
+        <p class="poppins-medium poppins-24 text-justify">
           Praktikum akan diajarkan melalui video dan
-          <br />praktikan juga
+          praktikan juga
           dapat mengisi daftar hadir
         </p>
       </div>
