@@ -1,0 +1,29 @@
+<template>
+  <section class="container w-100 h-100" style="margin-top: 250px;">
+    <div class="row">
+      <div
+        class="col-lg-6 col-sm-12"
+        data-aos="fade-left"
+        data-aos-once="false"
+        data-aos-duration="1000"
+        id="praktikum"
+      >
+        <p class="poppins-medium poppins-26 ">
+          Praktikum yang tersedia dan yang <br />akan datang
+        </p>
+        <p class="poppins-medium poppins-24">
+          Praktikum akan diajarkan melalui video dan <br />praktikan juga dapat
+          mengisi daftar hadir
+        </p>
+      </div>
+      <div
+        class="col-lg-6 col-sm-12"
+        data-aos="fade-right"
+        data-aos-once="false"
+        data-aos-duration="2500"
+      >
+        <img src="/card-praktikum.png" width="100%" />
+      </div>
+    </div>
+  </section>
+</template>

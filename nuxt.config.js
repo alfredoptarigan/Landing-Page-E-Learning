@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'universal',
+  mode: 'spa',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -36,12 +36,22 @@ export default {
       },
       {
         src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'
-      }
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js'
+      },
+      {
+        src: 'https://unpkg.com/aos@2.3.1/dist/aos.js'
+      },
+      {
+        src: 'https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js'
+      },
+
     ],
     link: [{
         rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
+        type: 'image',
+        href: '/logo.svg'
       },
       {
         rel: "stylesheet",
@@ -51,7 +61,17 @@ export default {
       {
         rel: "stylesheet",
         type: "text/css",
-        href: "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap"
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      },
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://unpkg.com/aos@2.3.1/dist/aos.css"
       },
 
     ]
@@ -67,7 +87,16 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{
+      src: "@/plugins/aos",
+      ssr: false
+    },
+    {
+      src: "@/plugins/scroll",
+      ssr: false
+    },
+
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
