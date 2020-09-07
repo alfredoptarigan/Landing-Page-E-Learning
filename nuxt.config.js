@@ -51,7 +51,7 @@ export default {
     link: [{
         rel: 'icon',
         type: 'image',
-        href: '/logo.svg'
+        href: '/Logo.svg'
       },
       {
         rel: "stylesheet",
