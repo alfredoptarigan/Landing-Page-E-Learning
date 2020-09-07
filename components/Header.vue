@@ -80,7 +80,7 @@
             <a href="/register" class="btn btn-prim">Get Started</a>
           </div>
           <div class="col-sm-12 col-lg-6 w-100 mt-5">
-            <img src="right-1x.png" class="img-responsive" width="100%" height="auto" />
+            <img src="right-1x.png" class="img-responsive mt-5" width="100%" height="auto" />
           </div>
         </div>
       </section>

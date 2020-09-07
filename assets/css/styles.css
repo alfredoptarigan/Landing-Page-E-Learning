@@ -7,7 +7,10 @@ Created : 7 September 2020
 .header {
   background-size: cover;
   width: 100%;
-  height: 663px;
+  /* background-image: url('bg-1.jpg'); */
+  background-repeat: no-repeat;
+
+
 }
 
 .navbar-color {
