@@ -2,7 +2,7 @@
 
 ### [Live Site] (https://alfredo.id/)
 
-![E-Learning Landing Page](https://ibb.co/8bYfc6J)
+![E-Learning Landing Page](https://i.ibb.co/dtmVgGS/E-Learning.png)
 
 ## Introduction
 Website ini digunakan sebagai halaman utama website E-Learning.
