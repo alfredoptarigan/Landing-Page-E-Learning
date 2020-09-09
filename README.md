@@ -1,20 +1,8 @@
-# e-learning
+# E-Learning Landing Page
 
-## Build Setup
+### [Live Site] (https://alfredo.id/)
 
-```bash
-# install dependencies
-$ npm install
+![E-Learning Landing Page](https://ibb.co/8bYfc6J)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Introduction
+Website ini digunakan sebagai halaman utama website E-Learning.
